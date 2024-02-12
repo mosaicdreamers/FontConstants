@@ -11,8 +11,7 @@ let package = Package(
             targets: ["FontConstants"]),
     ],
     targets: [
-        .target(
-            name: "FontConstants"
-        ),
+        .target(name: "Fonts", path: "Fonts"),
+        .target(name: "FontBuilder", path: "FontBuilder"),
     ]
 )
