@@ -8,9 +8,9 @@ let package = Package(
     products: [
         .library(
             name: "Fonts",
-            targets: ["FontConstants"]),
+            targets: ["Fonts"]),
     ],
     targets: [
-        .target(name: "FontConstants", path: "Fonts"),
+        .target(name: "Fonts", path: "Fonts"),
     ]
 )
