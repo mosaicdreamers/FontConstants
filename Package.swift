@@ -11,6 +11,6 @@ let package = Package(
             targets: ["Fonts"]),
     ],
     targets: [
-        .target(name: "Fonts", path: "Fonts"),
+        .target(name: "Fonts", path: "Fonts/All Fonts"),
     ]
 )
