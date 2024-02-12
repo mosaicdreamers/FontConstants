@@ -7,11 +7,11 @@ let package = Package(
     name: "font-constants",
     products: [
         .library(
-            name: "FontConstants",
-            targets: ["FontConstants"]),
+            name: "Fonts",
+            targets: ["FontConstants", "FontBuilder"]),
     ],
     targets: [
-        .target(name: "Fonts", path: "Fonts"),
+        .target(name: "FontConstants", path: "Fonts"),
         .target(name: "FontBuilder", path: "FontBuilder"),
     ]
 )
